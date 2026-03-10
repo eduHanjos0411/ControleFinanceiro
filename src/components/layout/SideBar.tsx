@@ -1,5 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
-import { useAuth } from "../../../auth/useAuth";
+import { useAuth } from "../../features/auth/useAuth";
 
 import './sidebar.css'
 
@@ -22,7 +22,7 @@ export function SideBar() {
       </nav>
       <div className="user">
         <h2>{user?.name} </h2>
-        <button className="logout" onClick={() => handleLogout()}>Sair</button>
+        <button className="logout-btn" onClick={() => handleLogout()}>Sair</button>
       </div>
     </div>
   )

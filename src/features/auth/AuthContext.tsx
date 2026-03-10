@@ -1,6 +1,7 @@
 import React, { createContext, useEffect, useState } from "react";
-import type { User } from "../types/User";
-import { loadUsers, saveUsers } from "../utils/Storage";
+import type { User } from "../../types/User";
+import { loadUsers, saveUsers } from "../../utils/UserStorage";
+
 
 interface AuthContextType {
   user: User | null;

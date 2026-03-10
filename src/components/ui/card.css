@@ -1,0 +1,53 @@
+.balance-card-container {
+  background: #1A1A24;
+  border: 1px solid #2A2A3A;
+  border-radius: 12px;
+  padding: 20px 24px;
+  min-width: 220px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  transition: all 0.2s ease;
+}
+
+.balance-card-container:hover {
+  border-color: #7C3AED;
+  box-shadow: 0 0 0 1px rgba(124, 58, 237, 0.2),
+              0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+/* título do card */
+
+.card-title {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #9CA3AF;
+  margin: 0;
+}
+
+/* valor principal */
+
+.card-value {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #F3F4F6;
+  margin: 0;
+}
+
+/* detalhe */
+
+.card-detail {
+  font-size: 0.85rem;
+  font-weight: 500;
+/* positivo */
+}
+
+.card-detail.positive {
+  color: var(--success); 
+}
+
+.card-detail.negative {
+  color: var(--danger); 
+}
