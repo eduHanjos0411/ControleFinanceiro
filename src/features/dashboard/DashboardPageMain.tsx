@@ -1,9 +1,13 @@
 import { BalanceCard } from "./components/BalanceCard";
+import { ExpenseCard } from "./components/ExpenseCard";
+import { IncomeCard } from "./components/IncomeCard";
 
 export function DashboardPageMain() {
   return (
     <>
-      <BalanceCard title="Saldo Atual" value={1245.2} lastValue={1.234} />
+      <BalanceCard/>
+      <IncomeCard/>
+      <ExpenseCard/>
     </>
   )
 }
