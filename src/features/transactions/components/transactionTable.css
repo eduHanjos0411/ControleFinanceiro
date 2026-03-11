@@ -1,0 +1,60 @@
+
+
+.transactions-actions {
+  text-align: right;
+  padding-right: 2rem;
+}
+
+.trans-act-btn {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+.trans-act-btn:hover {
+  background-color: var(--primary-hover);
+  cursor: pointer;
+}
+
+.transactions-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--bg-secondary);
+  border-radius: 8px;
+}
+
+.transactions-table th {
+  text-align: left;
+  padding-bottom: 1rem;
+  font-weight: 600;
+  padding: 1rem;
+}
+
+.transactions-table td {
+  padding: 0.5rem 0;
+  padding: 1rem;
+}
+
+.transactions-table tbody tr {
+  transition: 0.1s;
+
+}
+
+.transactions-table tbody tr:hover {
+  background-color: var(--surface-hover);
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  transition: 0.1s;
+}
+
+.delete-btn:hover {
+  cursor: pointer;
+  transform: translateY(-1px);
+}
